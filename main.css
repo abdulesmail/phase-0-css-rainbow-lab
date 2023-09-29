@@ -1,11 +1,41 @@
-div {
-  border: 20px solid #000; /* this is short hand for setting
-                            the border's width, its type, and color */
-  display: inline-block; /* a way of positioning elements */
-  min-width: 20em; /* the two min styles make the shape */
-  min-height: 25em; /* of the divs oblong*/
-  border-radius: 50%; /* this makes the normally square div round */
-  border-left-color: transparent; /* these remove the color from the left side */
-  border-right-color: transparent; /* the right side */
-  border-bottom-color: transparent; /* and the bottom of the circle */
+.rainbow-div {
+  width: 100px; 
+  height: 100px; 
+  border: 1px solid black;
+  margin: 10px;
+  display: inline-block; 
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  background-clip: content-box; 
+  color: white; 
+  font-weight: bold; 
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#indigo {
+  background-color: indigo;
+}
+
+#violet {
+  background-color: violet;
 }
